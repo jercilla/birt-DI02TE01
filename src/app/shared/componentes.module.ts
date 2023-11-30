@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeaderTabComponent } from './componentes/header-tab/header-tab.component';
 import { IonicModule } from '@ionic/angular';
+import { HeaderTabComponent } from './componentes/header-tab/header-tab.component';
+import { ExploreContainerComponent } from './componentes/explore-container/explore-container.component';
 
 @NgModule({
-  declarations: [HeaderTabComponent],
+  declarations: [HeaderTabComponent, ExploreContainerComponent],
   imports: [CommonModule, IonicModule],
-  exports: [HeaderTabComponent],
+  exports: [HeaderTabComponent, ExploreContainerComponent],
 })
 export class ComponentesModule {}
